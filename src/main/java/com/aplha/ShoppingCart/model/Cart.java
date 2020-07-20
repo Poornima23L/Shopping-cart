@@ -66,7 +66,7 @@ public class Cart {
         this.total_price = total_price;
     }
 
-    public List<Integer> getCart_items() {
+    public List<Integer> getCart_items(UUID user_id) {
         return cart_items;
     }
 
